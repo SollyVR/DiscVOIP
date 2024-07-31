@@ -1,0 +1,66 @@
+[Redacted User] — Yesterday at 8:55 PM
+Tldr; this post summarizes alot of what I was saying that makes it easy to get stuff through discord.
+
+
+Long story. It’s the NSA’s wet dream.
+
+Discord is filled with tracking systems which can’t be disabled. They claim they need to have these in order for some system involving push to talk to switch off if Discord detects you playing a game.
+
+That being said, Discord can monitor every application open on your computer. This is how they show what games people are playing. It has a much more nefarious side however as this data is stored by the company, who will hold that alongside everything else you give them. Currently they’re backed by investors, but when that dries up, expect a Facebook level data auction from them. (Remember Cambridge Analytica?)
+
+The owner of Discord is Jason Citron. He has been involved with privacy breaches in the past with his previous venture, OpenFeint. OpenFeint - Wikipedia. This involved the same pattern. Investments ended, the company switched to auctioning off the information of their users. Gamers Say OpenFeint Sold Them Out. OpenFeint was involved in lawsuits involving the Federal Trade Commission (FTC) in 2012.
+
+If you use Discord on your phone, it may randomly lock you out until you give them your phone number. They claim this is for security and that you did something to provoke its systems, but this is unknown. The Discord subreddit is full of people who believe they have unjustly been targeted. Using a VPN will trigger this, so anonymity on Discord is one big nono! They want to store your data for when the investments slow down.
+
+Discord is like Facebook in a lot of ways. In a way, it’s Facebook in its youth. Young Facebook got lots of investments, but as it grew and became older, the investments slowed down and Facebook had to find its own footing to increase its revenue. They became a data collection company. That’s their main purpose. Social media is just the avenue they use to collect the data of users.
+
+For Discord, it’s the VOIP market. They offer the best service, no doubt about it, but when it comes to privacy, they’re downright awful. Your private conversations with other users are not encrypted with E2EE, which means Discord can log them, and sell your “private” topics to advertisers. They’re still in their youth, they haven’t matured yet and had to fund their own company, but let me tell you, sustaining constant investments forever won’t work. Someday they’ll move onto the next big thing. Then you’re all on your own.
+
+They also work with the US government.
+
+Sol Raven — Today at 6:28 AM
+The exploits I've seen that may still be viable would not be used maliciously by anyone smart enough to figure them out. You could argue there may be a package out there being bought, but even still, the people using and it being used on are not anyone even remotely close to anyone in HBL (or so I presume). 
+
+As far as e2e encryption, I suppose that may not be implemented by Discord but my point still stands that they'd have to somehow sniff through Discords end and find packets from the users they seek. I'm not fully convinced it would be as simple as using Wireshark while VOIP connected, but if you can prove me wrong, by all means, I'd enjoy being proven wrong. 
+
+[Redacted User] — Today at 9:04 AM
+90% sure there are still old youtube vids on how to sniff packets through voip with wireshark
+Nvm even bette4
+https://wiki.wireshark.org/VoIP_calls
+
+Sol Raven — Today at 9:50 AM
+and doing this over Discord, the packets would be the users packets, not Discords?
+
+[Redacted User] — Today at 9:53 AM
+Correct, discord doesn't use e2e
+Most amount of protection you'll get is opus encryption but without the e2e anyone is allowed to decipher it
+
+Sol Raven — Today at 9:55 AM
+Right, decipher. But by default the packets you'll receive shouldn't be the target user, or am I misunderstanding
+Also in my work time last night I found this, so it seems they are working on something https://discord.com/blog/encryption-for-voice-and-video-on-discord
+Encryption for Voice and Video on Discord
+At Discord, user privacy has always been one of our highest values and priorities. To support this, we’re starting to experiment with new encryption protocols for voice and video calls. Read on to learn more.
+Encryption for Voice and Video on Discord
+
+[Redacted User] — Today at 9:55 AM
+The packets are still the target user
+You just can't read the packets until deciphered
+
+Sol Raven — Today at 9:56 AM
+I see
+
+[Redacted User] — Today at 9:56 AM
+But good to see they're working on it
+
+Sol Raven — Today at 9:56 AM
+Fuck knows how long they'll take to implement it
+Wouldn't put it past them to only include it for nitro boosters
+
+[Redacted User] — Today at 9:57 AM
+I feel like they'd anger too many discord users doing that
+
+Sol Raven — Today at 9:58 AM
+Oh I jest, but only slightly
+
+[Redacted User] — Today at 10:25 AM
+Given the ceos track record it's entirely possible
