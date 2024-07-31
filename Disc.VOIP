@@ -1,6 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softwrap Text Example</title>
+    <style>
+        pre {
+            white-space: pre-wrap; /* CSS3 */
+            white-space: -moz-pre-wrap; /* Firefox */
+            white-space: -pre-wrap; /* Opera <7 */
+            white-space: -o-pre-wrap; /* Opera 7 */
+            word-wrap: break-word; /* IE */
+        }
+    </style>
+</head>
+<body>
+    <pre>
 [Redacted User] — Yesterday at 8:55 PM
 Tldr; this post summarizes alot of what I was saying that makes it easy to get stuff through discord.
-
 
 Long story. It’s the NSA’s wet dream.
 
@@ -64,3 +81,6 @@ Oh I jest, but only slightly
 
 [Redacted User] — Today at 10:25 AM
 Given the ceos track record it's entirely possible
+    </pre>
+</body>
+</html>
